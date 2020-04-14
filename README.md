@@ -48,9 +48,9 @@ The tool for this work is under ./tools/train_filelist.ipynb
 
 # Train 
 
-CUDA_VISIVLE_DEVICES=0 python main.py --image_mode=fusion --mode=train --dataset_name=4@1 
-CUDA_VISIVLE_DEVICES=1 python main.py --image_mode=fusion --mode=train --dataset_name=4@2 
-CUDA_VISIVLE_DEVICES=2 python main.py --image_mode=fusion --mode=train --dataset_name=4@3 
+CUDA_VISIVLE_DEVICES=0 python main.py --mode=train --dataset_name=4@1 
+CUDA_VISIVLE_DEVICES=1 python main.py --mode=train --dataset_name=4@2 
+CUDA_VISIVLE_DEVICES=2 python main.py --mode=train --dataset_name=4@3 
 
 # Test
 
@@ -64,10 +64,6 @@ python main.py --image_mode=fusion --mode=test
 python main.py --image_mode=fusion --mode=submit
 
 
-### For multi-modal, --image_mode=fusion
-
-### For single-modal(RGB only), --image_mode=color
-
 ---------------------------------------------------------------
 Update on 2020.3.1 
 
@@ -78,4 +74,4 @@ Clean whole project source code;
 Enrich information in README.md file.
 
 -----------------------------------------------------------
-Any question, pls contact email: simonyq@163.com or wechat: kim_young  .
+Any question, pls contact email: charles.q.yang@gmail.com or wechat: kim_young  .

@@ -73,5 +73,17 @@ Clean whole project source code;
 
 Enrich information in README.md file.
 
+## Citation
+
+```
+@inproceedings{pipenet,
+  title={PipeNet: Selective Modal Pipeline of Fusion Network for Multi-Modal Face Anti-Spoofing},
+  author={Yang, Qing and Zhu, Xia and Fwu, Jong-Kae and Ye, Yun and You, Ganmei and Zhu, Yuan},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops},
+  pages={644--645},
+  year={2020}
+}
+```
+
 -----------------------------------------------------------
 Any question, pls contact email: charles.q.yang@gmail.com or wechat: kim_young  .

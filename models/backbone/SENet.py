@@ -195,7 +195,7 @@ class SENet(nn.Module):
                 ('bn3', nn.BatchNorm2d(inplanes)),
                 ('relu3', nn.ReLU(inplace=True)),
             ]
-        else:backbone/
+        else:#backbone/
             layer0_modules = [
                 ('conv1', nn.Conv2d(3, inplanes, kernel_size=7, stride=2,
                                     padding=3, bias=False)),

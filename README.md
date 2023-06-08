@@ -48,15 +48,15 @@ The tool for this work is under ./tools/train_filelist.ipynb
 
 # Train 
 
-CUDA_VISIVLE_DEVICES=0 python main.py --mode=train --dataset_name=4@1 
-CUDA_VISIVLE_DEVICES=1 python main.py --mode=train --dataset_name=4@2 
-CUDA_VISIVLE_DEVICES=2 python main.py --mode=train --dataset_name=4@3 
+## CUDA_VISIVLE_DEVICES=0 python main.py --mode=train --dataset_name=4@1 
+## CUDA_VISIVLE_DEVICES=1 python main.py --mode=train --dataset_name=4@2 
+## CUDA_VISIVLE_DEVICES=2 python main.py --mode=train --dataset_name=4@3 
 
 # Test
 
-python main.py --image_mode=fusion --mode=dev
+## python main.py --image_mode=fusion --mode=dev
 
-python main.py --image_mode=fusion --mode=test
+## python main.py --image_mode=fusion --mode=test
 
 
 # submission
@@ -67,11 +67,11 @@ python main.py --image_mode=fusion --mode=submit
 ---------------------------------------------------------------
 Update on 2020.3.1 
 
-Make the train/val system more automated and less commands and parameters;
+## Make the train/val system more automated and less commands and parameters;
 
-Clean whole project source code;
+## Clean whole project source code;
 
-Enrich information in README.md file.
+## Enrich information in README.md file.
 
 ## Citation
 

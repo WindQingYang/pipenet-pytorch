@@ -1,5 +1,5 @@
 # PipeNet-PyTorch : RGB-D Face Anti-Spoofing Project
-This is PyTorch code implementation for CVPR2020 workshop [paper](https://openaccess.thecvf.com/content_CVPRW_2020/papers/w39/Yang_PipeNet_Selective_Modal_Pipeline_of_Fusion_Network_for_Multi-Modal_Face_CVPRW_2020_paper.pdf) **"PipeNet: Selective Modal Pipeline of Fusion Network for Multi-Modal Face Anti-Spoofing"**.
+This is PyTorch code implementation for CVPR2020 workshop [paper](https://openaccess.thecvf.com/content_CVPRW_2020/papers/w39/Yang_PipeNet_Selective_Modal_Pipeline_of_Fusion_Network_for_Multi-Modal_Face_CVPRW_2020_paper.pdf) [arXiv](https://arxiv.org/abs/2004.11744) **"PipeNet: Selective Modal Pipeline of Fusion Network for Multi-Modal Face Anti-Spoofing"**.
 
 This approach won **Global 3rd place** in **@CVPR2020** Chalearn Multi-modal Cross-ethnicity Face anti-spoofing Recognition Challenge  (Multi_modal track).
 

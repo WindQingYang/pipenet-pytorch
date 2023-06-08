@@ -49,15 +49,15 @@ The tool for this work is under ./tools/train_filelist.ipynb
 
 # Train 
 ```bash
-### python main.py --mode=train --dataset_name=4@1 
-### python main.py --mode=train --dataset_name=4@2 
-### python main.py --mode=train --dataset_name=4@3 
+python main.py --mode=train --dataset_name=4@1 
+python main.py --mode=train --dataset_name=4@2 
+python main.py --mode=train --dataset_name=4@3 
 ```
 
 # Test
 ```bash
-### python main.py --image_mode=fusion --mode=dev
-### python main.py --image_mode=fusion --mode=test
+python main.py --image_mode=fusion --mode=dev
+python main.py --image_mode=fusion --mode=test
 ```
 
 
